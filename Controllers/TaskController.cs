@@ -20,7 +20,7 @@ namespace FirstTask.Controllers{
                     current_day = DateTime.UtcNow.DayOfWeek.ToString(),
                     utc_time = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
                     track = track.ToLower(),
-                    github_file_url = "https://github.com/bahdman/HNGInternshipFirstTask.git",
+                    github_file_url = "https://github.com/bahdman/HNGInternshipFirstTask/blob/main/Controllers/TaskController.cs",
                     github_repo_url = "https://github.com/bahdman/HNGInternshipFirstTask",
                     status_code = Response.StatusCode
                 };
